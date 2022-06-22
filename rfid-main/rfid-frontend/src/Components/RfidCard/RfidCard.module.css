@@ -1,0 +1,52 @@
+.rfidCard {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: rgb(87, 122, 238);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  height: 150px;
+  width: 280px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border-radius: 12px;
+  margin: 2rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.rfidCardIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0.5rem;
+  width: 50px;
+  height: 50px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 50%;
+}
+
+.rfidCardIcon:hover {
+  background-color: rgb(52, 96, 241);
+}
+
+.rfidCard:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.rfidCardOwner {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.rfidCardId {
+  font-size: 1.1rem;
+  font-weight: 400;
+}

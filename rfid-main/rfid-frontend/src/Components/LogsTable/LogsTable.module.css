@@ -1,0 +1,29 @@
+.logsTable {
+  font-family: "Poppins", sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+
+.logsTable td,
+.logsTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.logsTable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.logsTable tr:hover {
+  background-color: #ddd;
+}
+
+.logsTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(87, 122, 238);
+  color: white;
+}

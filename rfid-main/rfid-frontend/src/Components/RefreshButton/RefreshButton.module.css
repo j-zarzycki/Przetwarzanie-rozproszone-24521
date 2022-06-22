@@ -1,0 +1,23 @@
+.refreshButton {
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: rgb(87, 122, 238);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border-radius: 12px;
+  cursor: pointer;
+  width: 85px;
+  margin: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.refreshButton:hover {
+  background-color: rgb(48, 69, 138);
+  transition: all 0.3s ease-in-out;
+}
